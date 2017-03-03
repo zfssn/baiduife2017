@@ -1,0 +1,7 @@
+*{margin:0;padding:0;}
+ul,ol,li{list-style: none;}
+a{text-decoration: none;}
+body{background:#dedede;font:14px "Microsoft YaHei",微软雅黑;}
+header{height:60px;width:100%;background:#333;}
+article{background:white;padding:40px 20px 45px;margin:20px;border-radius: 3px;box-shadow: 1px 1px 2px}
+footer{height:70px;line-height:70px;width:100%;background-color: black;text-align: center;color:white;}
