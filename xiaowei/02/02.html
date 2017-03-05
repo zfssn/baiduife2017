@@ -32,7 +32,7 @@
         <h1>另一篇文章的一级标题</h1>
         <h2>文章二级标题</h2>
         <p><span>文章作者</span><span>文章发表时间</span></p>
-        <p>这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落<a href="http://ife.baidu.com">一个到ife.baidu.com的链接</a>这是一个很长的段落这是一个很长的段落这是一个很长的段落<en>一些斜体字</em></p>
+        <p>这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落<a href="http://ife.baidu.com">一个到ife.baidu.com的链接</a>这是一个很长的段落这是一个很长的段落这是一个很长的段落<em>一些斜体字</em></p>
         <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1489072005&di=845fb3ccce330e5f97a40dfbebe3a93c&imgtype=jpg&er=1&src=http%3A%2F%2Fam.zdmimg.com%2F201608%2F03%2F57a1f68889729.png_a200.jpg" alt="一张图片">
         <ul>
             <li>项目列表一</li>
@@ -126,30 +126,48 @@
     </main>
     
     <aside>
-        <h1>这里是一个侧边栏，这是侧边栏的标题</h1>
-        <h2>这是注册窗口标题</h2>
+        <h2>这里是一个侧边栏，这是侧边栏的标题</h2>
         <form action="">
-            <label>请输入邮箱地址：<input type="text" placeholder="这是一个文本输入框 "></label>
-            <br>
-            <strong>>邮箱地址请按要求格式输入</strong>
-            <br>
-            <label>请输入密码：<input type="password" placeholder="请输入密码："></label>
-            <label>请输入密码：<input type="password" placeholder="请输入密码："></label>
-            <br>
-            <strong>密码为6-16位英文数字</strong>
-            <br>
-            <label>性别: <input type="radio" name="sex" checked="">男<input type="radio" name='sex'>女</label>
-            <label>城市：
+            <div>
+                <label for='email'>请输入邮箱地址：</label>
+                <input type="text" name='email' placeholder="这是一个文本输入框 ">
+            </div>
+            <div class='tips'>邮箱地址请按要求格式输入</div>
+            <div>
+               <label for='pwd'>请输入密码：</label> 
+               <input type="password" name='pwd' placeholder="请输入密码：">
+            </div>
+            <div>
+               <label for='repwd'>请输入密码：</label> 
+               <input type="password" name='repwd' placeholder="请输入密码：">
+            </div>
+            <div class='tips'>
+               密码为6-16位英文数字
+            </div>
+            <div>
+               <label for='sex'>性别：</label>
+               <input type="radio" name="sex" checked="">男<input type="radio" name='sex'>女 
+            </div>
+            <div>
+               <label for='city'>城市：</label> 
                 <select name="city">
                     <option value="bj" >北京</option>
                     <option value="sh" selected="selected">上海</option>
                 </select>
-            </label>
-            <label>爱好：<input type="checkbox" name='like' value='run'>跑步
-            <input type="checkbox" name='like' value='sing'>唱歌
-            <input type="checkbox" name='like' value='dance'>跳舞</label>
-            <label>个人描述：<textarea name="" id="" cols="30" rows="10">这是一段个人描述</textarea></label>
-            <input type="submit" value='确认提交'>
+            </div>
+            <div>
+                <label for='like'>爱好：</label>
+                <input type="checkbox" name='like' value='run'>跑步
+                <input type="checkbox" name='like' value='sing'>唱歌
+                <input type="checkbox" name='like' value='dance'>跳舞
+            </div>
+            <div>
+                <label for='selfinfo'>个人描述：</label>  
+                <textarea name="selfinfo" id="" cols="60" rows="10">这是一段个人描述</textarea>
+            </div>
+            <div class='subbtn'>
+                <input type="submit" value='确认提交'>
+            </div>          
         </form>
     </aside>
     <footer>
