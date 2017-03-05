@@ -1,0 +1,13 @@
+*{margin:0;padding:0;}
+body,div{padding:20px;}
+body{font:14px 'Microsoft YaHei';}
+ul li{list-style: none;margin-bottom: 20px}
+div{border:1px solid #999;}
+img{display: inline-block;width:80px;height: 80px;}
+.container{background-color: #eee;}
+.containerfix{border:0;overflow: hidden;padding:0;}
+.logo,.teamer,.intro{background-color: white;box-sizing:border-box;}
+.logo{float:left;width:200px;}
+.logo div{display:inline-block;margin-left: 20px;vertical-align: top;height:80px;width:52px;padding:0;border:0;}
+.teamer{float:right;width:120px;}
+.intro{margin-left:220px;margin-right:140px;}
