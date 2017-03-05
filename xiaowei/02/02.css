@@ -18,10 +18,10 @@ nav li a:hover,nav li a:active{color:#999;}
 article,aside{background:white;padding:40px 20px 45px;margin:20px;border-radius: 3px;box-shadow: 1px 1px 2px}
 article h1{margin-bottom: 20px;}
 article h2{margin-bottom: 15px;color:#666;}
-/*article img{width:300px;height:300px;}*/
+.innerimg{width:300px;height:300px;}
 .imglist li{display:block;width:200px;height:200px;box-sizing:border-box;border:1px solid black;padding:10px;margin:10px 30px;}
-.imglist p{line-height:80px;width:180px;text-align: center;}
-.imglist div{height:100px;width:100%;}
+.imglist p{line-height:40px;width:180px;text-align: center;}
+.imglist div{height:140px;width:100%;}
 .paiming{margin-left:50px;}
 table{width:100%; border-collapse: collapse;border-spacing: 0;}
 td{border:1px solid #999;}
@@ -29,7 +29,6 @@ thead{background-color: black;color:white;}
 th{border:1px solid white;}
 aside{margin:50px 50px 0 20px;position: relative;padding-bottom: 0;}
 aside h2{line-height:50px;border-left: 3px solid #aaa;padding-left:15px;font-size:16px;}
-aside div{box-shadow: 0 0 0 0;}
 aside div label{display:inline-block;width:400px;text-align: right;}
 aside div.tips{position:relative;left:400px;color:#aaa;margin-bottom: 20px;}
 aside input[type='text'],aside input[type='password']{width:10em;}
