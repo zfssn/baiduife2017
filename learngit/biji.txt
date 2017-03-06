@@ -10,3 +10,6 @@
 $ git clone url
 解决push失败 因为github文件夹中有一些本地没有的文件
 $ git pull --rebase origin master 
+
+使用git 直接生成网页demo
+https://htmlpreview.github.io/?
