@@ -1,0 +1,41 @@
+*{margin:0;padding:0;}
+.clearfix{*zoom:1;}
+.clearfix:after{content:"";display:table;line-height:0;clear:both;}
+img{width:100%;height:100%;}
+ul li{list-style: none;}
+a{text-decoration: none;}
+article a{text-decoration: underline;}
+article>p{text-indent: 2em;}
+.author{text-indent:0;font-size:10px;color:#888;margin-bottom: 10px;}
+body{background:#dedede;font:14px "Microsoft YaHei",微软雅黑;line-height: 2em;min-width:760px;}
+header{height:60px;line-height:60px;background:#333;position: relative;}
+header h1,header nav{display:inline-block;vertical-align: middle;position: absolute;}
+header h1{left:30px;background-color: white;width:300px;height:60px;}
+nav{right:10px;}
+nav li{list-style-type:disc;float:left;width:100px;}
+nav li a{color:white;}
+nav li a:hover,nav li a:active{color:#999;}
+main{float:left;width:100%;box-sizing:border-box;}
+.mainfix{margin-right:370px;}
+article,aside{background:white;padding:40px 20px 45px;border-radius: 3px;box-shadow: 1px 1px 2px;margin:20px;}
+aside{position: relative;float:right;width:350px;margin-left: -370px;box-sizing:border-box;}
+article h1{margin-bottom: 20px;}
+article h2{margin-bottom: 15px;color:#666;}
+.innerimg{width:300px;height:300px;}
+.imglist li{display:block;width:200px;height:200px;box-sizing:border-box;border:1px solid black;padding:10px;margin:10px 30px;float:left;}
+.imglist p{line-height:40px;width:180px;text-align: center;}
+.imglist div{height:140px;width:100%;}
+.paiming{margin-left:50px;}
+table{width:100%; border-collapse: collapse;border-spacing: 0;}
+td{border:1px solid #999;}
+thead{background-color: black;color:white;}
+th{border:1px solid white;}
+aside h2{line-height:50px;border-left: 3px solid #aaa;padding-left:15px;font-size:16px;}
+aside div label{display:inline-block;width:130px;text-align: right;}
+aside div.tips{padding-left:130px;color:#aaa;margin-bottom: 20px;}
+aside input[type='text'],aside input[type='password']{width:10em;}
+aside div.subbtn{width:100%;line-height: 50px;height:50px;}
+aside div input[type='submit']{width:100%;height:100%;background-color:lightblue;color:white;font-size: 16px;font-weight: bold;border-radius: 7px;}
+aside div label[for='selfinfo']{vertical-align: top;}
+tfoot{background-color: #888;}
+footer{height:70px;line-height:70px;background-color: black;text-align: center;color:white;}
